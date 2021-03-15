@@ -33,7 +33,7 @@ public class MessageService {
 
     public Optional<Message> getByUUID(UUID uuid) {
         Optional<Message> optionalMessage = repository.findById(uuid);
-        //if (optionalMessage.isEmpty()) throw new MessageException("Такой задачи нет");
+        if (optionalMessage.isPresent()) throw new MessageException("Такой задачи нет");
         return optionalMessage;
     }
 

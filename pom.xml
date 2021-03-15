@@ -16,7 +16,7 @@
     <description>Test task for GPB</description>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
@@ -103,8 +103,6 @@
                     </execution>
                 </executions>
             </plugin>
-
-
 
         </plugins>
     </build>

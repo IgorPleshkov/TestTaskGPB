@@ -5,3 +5,4 @@ public class MessageException extends RuntimeException{
         super(message);
     }
 }
+

@@ -29,3 +29,4 @@ public class Message {
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "YYYY-MM-DD hh:mm:ss")
     private LocalDateTime dateTime;
 }
+

@@ -13,5 +13,4 @@ import java.util.UUID;
 public interface MessageRepository extends PagingAndSortingRepository<Message, UUID> {
     @Query(value = "SELECT m FROM Message m WHERE m.status = :status1 OR m.status = :status2")
     List<Message> findByStatusMessage(@Param("status1") Status status1, @Param("status2") Status status2);
-
 }

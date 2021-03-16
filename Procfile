@@ -1,1 +1,1 @@
-web: java -jar target/TestTaskApplication.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* ru.example.TestTaskApplication

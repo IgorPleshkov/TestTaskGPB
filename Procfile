@@ -1,2 +1,2 @@
-web:java $PORT -cp target/classes:target/dependency/* ru.example.TestTaskApplication
+web: java $JAVA_OPTS -Dserver.port=$PORT -cp target/classes:target/dependency/* ru.example.TestTaskApplication
 

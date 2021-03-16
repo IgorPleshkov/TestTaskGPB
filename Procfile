@@ -1,1 +1,1 @@
-web: java -jar java/TestTaskApplication.jar
+web: java -jar target/TestTaskApplication.jar

@@ -17,10 +17,10 @@ dist/
 *.log
 
 # Package files
-#*.jar
+*.jar
 
 # Maven
-#target/
+target/
 dist/
 
 # JetBrains IDE
@@ -38,7 +38,7 @@ Thumbs.db
 # Applications
 *.app
 *.exe
-#*.war
+*.war
 
 # Large media files
 *.mp4

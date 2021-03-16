@@ -1,2 +1,2 @@
-web:java $JAVA_OPTS -cp target/classes:target/dependency/* ru.example.TestTaskApplication
+web:java $PORT -cp target/classes:target/dependency/* ru.example.TestTaskApplication
 

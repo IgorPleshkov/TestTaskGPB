@@ -4,7 +4,7 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-node_modules/
+#node_modules/
 dist/
 
 # Compiled Java class files
@@ -17,7 +17,7 @@ dist/
 *.log
 
 # Package files
-*.jar
+#*.jar
 
 # Maven
 target/
@@ -38,7 +38,7 @@ Thumbs.db
 # Applications
 *.app
 *.exe
-*.war
+#*.war
 
 # Large media files
 *.mp4

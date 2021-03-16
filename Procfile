@@ -1,1 +1,1 @@
-web: java -jar target/testappgpbpleshkov.jar
+web: java -jar java/TestTaskApplication.jar
